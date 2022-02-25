@@ -78,12 +78,13 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-
 }
+
 .navbar ul li {
     margin-left: 10px;
     margin-right: 10px;
 }
+
 .navbar a { 
     text-decoration: none;
     color: #b7b9c4;    
@@ -99,7 +100,6 @@
     min-height: 200px;
     max-height: 500px;
     display: flex;
-    
 }
 
 .gallery img {
@@ -184,6 +184,9 @@ a :hover :visited {
 }
 
 .large-button {
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2px;
     margin-left: 140px;
     margin-right: 140px;
     display: flex;
@@ -194,8 +197,13 @@ a :hover :visited {
     background-color: #e44e56;
     color: #fff;
     border: 1px solid transparent;
-    letter-spacing: 2px;
     text-decoration: none;
+}
+.large-button:hover {
+    background-color: #242427;
+    cursor: pointer;
+    transition: background-color 0.1s ease-out;
+    border: 1px solid #e44e56;
 }
 
 .footer {    
